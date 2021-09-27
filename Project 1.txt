@@ -1,0 +1,25 @@
+Title : HEX
+
+feature :
+
+- UI
+	- 11x11 board
+	- two colors (red/blue)
+
+- Gameplay
+	- click to add token
+	- win/lose
+
+- IA (optional)
+	- play when it's his turn
+	- go in straight line to end
+	- can think of the better path
+
+
+
+distribution :
+
+	- UI (11x11 board) Mathieu
+	- UI (colors detection) Pierre
+	- Gameplay (Win/Lose) Quentin
+	- Gameplay (click to add token) Arthur
