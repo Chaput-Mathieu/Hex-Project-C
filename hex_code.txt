@@ -1,0 +1,24 @@
+hexagonal :
+
+h = sin( 30°) * s
+r = cos( 30°) * s
+b = s + 2 * h
+a = 2 * r
+
+
+public static float CalculateH(float side)
+{
+    return ConvertToFloat(System.Math.Sin(DegreesToRadians(30)) * side);
+}
+
+public static float CalculateR(float side)
+{
+    return ConvertToFloat(System.Math.Cos(DegreesToRadians(30)) * side);
+} 
+public static double DegreesToRadians(double degrees)
+{
+    return degrees * System.Math.PI / 180;
+}
+
+
+link : https://www.codeproject.com/Articles/14948/Hexagonal-grid-for-games-and-other-projects-Part-1
